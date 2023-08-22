@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:pink">
+<h1><i>Onclick event for Javascript</h1><i>
+<style>
+body {
+  width: 50%;
+  padding: 10px;
+  border: 20px solid gray;
+  margin: 200px;
+  
+}
+h1{
+font-family:Garamond, serif;
+text-align:center;
+  }
+  </style>
+<center><button onclick="myfunction()">Message</button></center>
+<p id="demo"></p>
+<script>
+function myfunction(){
+document.getElementById("demo").innerHTML="Displaying the message";
+}
+</script>
+<center><button onclick="myFunction()">Message</button></center>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Changing the message by another button ";
+}
+</script>
+</body>
+</html>
